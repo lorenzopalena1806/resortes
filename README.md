@@ -24,7 +24,7 @@ El título de la página y el texto del `<title>` en `index.html` se actualizan 
 
 ## Imágenes
 
-Reemplazar `img/logo.svg` por el logo real del cliente (mantener el nombre o actualizar las referencias en `index.html`).
+Reemplazar `img/logo.png` por el logo real del cliente (mantener el nombre o actualizar las referencias en `index.html`). El header es oscuro: el CSS (`.logo__img`) invierte el logo a blanco, así que funciona con logos negros sobre fondo blanco. Si el nuevo logo ya es claro o tiene colores, quitar `filter` y `mix-blend-mode` de esa regla.
 
 ## Formulario
 

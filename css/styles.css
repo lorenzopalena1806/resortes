@@ -44,6 +44,7 @@ a { color: inherit; }
 }
 .header__inner { display: flex; align-items: center; justify-content: space-between; height: 64px; }
 .logo { display: flex; align-items: center; gap: .6rem; font-weight: 700; text-decoration: none; font-size: 1.1rem; }
+.logo__img { width: 44px; height: 44px; object-fit: contain; filter: invert(1); mix-blend-mode: screen; }
 .nav { display: flex; align-items: center; gap: 1.5rem; }
 .nav a { text-decoration: none; font-weight: 500; }
 .nav a:not(.btn):hover { color: var(--accent); }
