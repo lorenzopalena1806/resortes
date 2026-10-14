@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resortes Industriales | Fabricación de resortes de metal a medida</title>
+  <meta name="description" content="Fabricamos resortes de compresión, tracción, torsión y a medida en acero y acero inoxidable. Pedí tu cotización.">
+  <link rel="icon" type="image/svg+xml" href="img/logo.svg">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="logo" aria-label="Inicio">
+        <img src="img/logo.svg" alt="" width="36" height="36">
+        <span data-brand>Resortes Industriales</span>
+      </a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="menu" class="nav" aria-label="Principal">
+        <a href="#productos">Productos</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#proceso">Proceso</a>
+        <a href="#contacto" class="btn btn--small">Cotizar</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section id="inicio" class="hero">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <p class="eyebrow">Fabricación industrial</p>
+          <h1>Resortes de metal <span>a medida</span> para tu industria</h1>
+          <p class="hero__lead">Compresión, tracción, torsión y piezas especiales. Fabricamos desde una unidad hasta grandes series, con materiales certificados.</p>
+          <div class="hero__actions">
+            <a href="#contacto" class="btn">Pedir cotización</a>
+            <a href="#productos" class="btn btn--ghost">Ver productos</a>
+          </div>
+        </div>
+        <div class="hero__art" aria-hidden="true">
+          <img src="img/spring-hero.svg" alt="" width="320" height="420">
+        </div>
+      </div>
+    </section>
+
+    <section id="productos" class="section">
+      <div class="container">
+        <h2 class="section__title">Nuestros productos</h2>
+        <p class="section__lead">Una línea completa de resortes para cada aplicación.</p>
+        <div class="grid" id="product-grid"></div>
+      </div>
+    </section>
+
+    <section id="nosotros" class="section section--dark">
+      <div class="container">
+        <h2 class="section__title">Por qué elegirnos</h2>
+        <div class="features">
+          <article class="feature">
+            <h3>Calidad garantizada</h3>
+            <p>Controlamos cada lote para asegurar medidas y carga según especificación.</p>
+          </article>
+          <article class="feature">
+            <h3>Materiales certificados</h3>
+            <p>Acero al carbono, acero inoxidable, alambre de piano y más.</p>
+          </article>
+          <article class="feature">
+            <h3>Fabricación a medida</h3>
+            <p>Desde prototipos hasta series, según tus planos o muestras.</p>
+          </article>
+          <article class="feature">
+            <h3>Plazos cumplidos</h3>
+            <p>Entregas ágiles y comunicación clara durante todo el pedido.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="proceso" class="section">
+      <div class="container">
+        <h2 class="section__title">Cómo trabajamos</h2>
+        <ol class="steps">
+          <li><strong>Consulta</strong><span>Nos contás qué necesitás o enviás tu plano.</span></li>
+          <li><strong>Cotización</strong><span>Te respondemos con precio y plazo.</span></li>
+          <li><strong>Fabricación</strong><span>Producimos y controlamos la calidad.</span></li>
+          <li><strong>Entrega</strong><span>Despachamos a donde lo necesites.</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="contacto" class="section section--light">
+      <div class="container contact">
+        <div class="contact__info">
+          <h2 class="section__title">Pedí tu cotización</h2>
+          <p>Completá el formulario y te respondemos a la brevedad.</p>
+          <ul class="contact__list">
+            <li><strong>Teléfono:</strong> <a data-phone href="#"></a></li>
+            <li><strong>Email:</strong> <a data-email href="#"></a></li>
+            <li><strong>Dirección:</strong> <span data-address></span></li>
+            <li><strong>Horario:</strong> <span data-hours></span></li>
+          </ul>
+        </div>
+        <form id="contact-form" class="form" novalidate>
+          <div class="field">
+            <label for="name">Nombre</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+            <small class="error" data-error-for="name"></small>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+            <small class="error" data-error-for="email"></small>
+          </div>
+          <div class="field">
+            <label for="phone">Teléfono (opcional)</label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel">
+          </div>
+          <div class="field">
+            <label for="type">Tipo de resorte</label>
+            <select id="type" name="type"></select>
+          </div>
+          <div class="field">
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <small class="error" data-error-for="message"></small>
+          </div>
+          <div class="form__actions">
+            <button type="submit" class="btn btn--whatsapp" data-channel="whatsapp">Enviar por WhatsApp</button>
+            <button type="submit" class="btn btn--ghost-dark" data-channel="email">Enviar por email</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>&copy; <span id="year"></span> <span data-brand>Resortes Industriales</span>. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <a class="wa-float" data-wa-float target="_blank" rel="noopener" aria-label="Escribinos por WhatsApp">
+    <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8.500 8.500 0 0 1-12.600 7.400L3 21l1.600-5.200A8.500 8.500 0 1 1 21 12z"/><path d="M9 9.500c0 3 2.500 5.500 5.500 5.500l1.500-1.500-2-1-1 .8a4 4 0 0 1-2-2l.8-1-1-2z"/></svg>
+  </a>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
