@@ -16,26 +16,31 @@ const SITE_CONFIG = {
       name: "Resortes de compresión",
       description: "Los más utilizados. Absorben cargas y vuelven a su longitud original al comprimirse.",
       icon: "compression",
+      image: "img/compresion.png",
     },
     {
       name: "Resortes de tracción",
       description: "Con ganchos en los extremos, trabajan estirándose y ofrecen tensión constante.",
       icon: "extension",
+      image: "img/traccion.png",
     },
     {
       name: "Resortes de torsión",
       description: "Transmiten un par de giro. Ideales para bisagras, pinzas y mecanismos de retorno.",
       icon: "torsion",
+      image: "img/torsion.png",
     },
     {
       name: "Resortes a medida",
       description: "Diseñamos y fabricamos según tus planos, muestras o requisitos de carga.",
       icon: "custom",
+      image: "img/a-medida.png",
     },
     {
       name: "Alambre conformado",
       description: "Piezas de alambre con formas especiales para aplicaciones industriales.",
       icon: "wireform",
+      image: "img/alambre-conformado.png",
     },
     {
       name: "Resortes de acero inoxidable",

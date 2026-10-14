@@ -58,9 +58,26 @@
     var desc = document.createElement("p");
     desc.textContent = p.description;
 
-    card.appendChild(svg);
-    card.appendChild(h3);
-    card.appendChild(desc);
+    var media = document.createElement("div");
+    media.className = "card__media";
+    if (p.image) {
+      var img = document.createElement("img");
+      img.src = p.image;
+      img.alt = p.name;
+      img.loading = "lazy";
+      media.appendChild(img);
+    } else {
+      media.classList.add("card__media--icon");
+      media.appendChild(svg);
+    }
+
+    var body = document.createElement("div");
+    body.className = "card__body";
+    body.appendChild(h3);
+    body.appendChild(desc);
+
+    card.appendChild(media);
+    card.appendChild(body);
     grid.appendChild(card);
 
     var opt = document.createElement("option");
