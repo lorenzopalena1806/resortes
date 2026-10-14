@@ -79,7 +79,7 @@ a { color: inherit; }
 .hero__lead { font-size: 1.15rem; color: var(--steel-200); max-width: 52ch; }
 .hero__actions { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1.5rem; }
 .hero__art { display: flex; justify-content: center; }
-.hero__art img { max-height: 380px; width: auto; }
+.hero__art img { max-height: 380px; width: auto; filter: invert(1); mix-blend-mode: screen; }
 
 /* Sections */
 .section { padding: 4.5rem 0; }
