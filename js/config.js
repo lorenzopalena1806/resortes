@@ -46,6 +46,7 @@ const SITE_CONFIG = {
       name: "Resortes de acero inoxidable",
       description: "Resistentes a la corrosión, para ambientes húmedos, químicos o alimentarios.",
       icon: "stainless",
+      image: "img/acero-inoxidable.png",
     },
   ],
 };
